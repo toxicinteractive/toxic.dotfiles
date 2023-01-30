@@ -1,0 +1,21 @@
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+[*.cs]
+# Default severity for analyzer diagnostics with category 'Style' (escalated to build errors)
+dotnet_analyzer_diagnostic.category-Style.severity = error
+# Default severity for analyzer diagnostics with category 'CodeQuality' (escalated to build errors)
+dotnet_analyzer_diagnostic.category-CodeQuality.severity = error
+
+dotnet_analyzer_diagnostic.category-Maintainability.severity = error
+dotnet_analyzer_diagnostic.category-Performance.severity = error
+dotnet_analyzer_diagnostic.category-Naming.severity = error
+dotnet_analyzer_diagnostic.category-Reliability.severity = error
+dotnet_analyzer_diagnostic.category-Security.severity = error
+dotnet_analyzer_diagnostic.category-Usage.severity = error
+csharp_style_namespace_declarations = file_scoped
+dotnet_diagnostic.IDE0160.severity = none
+dotnet_diagnostic.IDE0161.severity = error
+dotnet_diagnostic.IDE0008.severity = none
+dotnet_diagnostic.IDE0058.severity = none
+dotnet_diagnostic.IDE0045.severity = none
+dotnet_style_prefer_conditional_expression_over_return = false
